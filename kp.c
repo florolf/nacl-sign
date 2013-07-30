@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "crypto_sign.h"
+#include "sodium.h"
 
 unsigned char pk[crypto_sign_PUBLICKEYBYTES];
 unsigned char sk[crypto_sign_SECRETKEYBYTES];
